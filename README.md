@@ -8,3 +8,5 @@
 - pip2 install bs4
 - cd apkpure-dl
 - python2 pure-dl.py
+
+<img src="https://github.com/rfky-id/apkpure-dl/blob/master/image.png">
