@@ -56,7 +56,7 @@ class apps(object):
 		forsize=ft.find("span",class_="fsize")
 		fort=re.findall(">(.*?)</h1>",str(ft))
 		size=re.findall("an>(.*?)</span>",str(forsize))
-		print("[+] Downloading : %s\n[+] File Size : %s"%(fort,size)).lower().replace("['","").replace("']","")
+		print("[+] Package Name : %s\n[+] File Size : %s"%(fort,size)).lower().replace("['","").replace("']","")
 		with open(random_+".apk","wb") as k:
 			afr=self.s.get("https://m.apkpure.com"+kp).text
 			at=bs4.BeautifulSoup(afr,features="html.parser")
