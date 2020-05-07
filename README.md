@@ -1,6 +1,6 @@
 # apkpure downloader
 
--< How to install >-
+< How to install >
 
 - Use python2
 - pkg install python2
